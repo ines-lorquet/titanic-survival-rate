@@ -4,11 +4,6 @@
 
 Juillet 2024
 
-Pour que les script ai accès aux variables d'environnement (identifiants de connexion), il faut :  
-- Le fichier .env
-- Installer Le package dotenv
-- Appeler .env dans db.py
-
 ## Table des matières de la Veille
 
 - [Explorez différents types de fractales](#explorez-différents-types-de-fractales)
