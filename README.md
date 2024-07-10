@@ -26,6 +26,42 @@ Juillet 2024
 - [Conclusion](#Conclusion)
 
 ## Contexte
+Travail en équipe de 3 étudiants en 1ère année de `Bachelor IT spécialité Intelligence Artificielle` à [La Plateforme_](https://laplateforme.io/) à Marseille
+
+- Said Kheloufi
+  <a href="https://www.linkedin.com/in/said-kheloufi/">
+    <img src="img/linkedin.png" width=25>
+  </a>
+  <a href="https://github.com/said-kheloufi">
+    <img src="img/github.png" width=25>
+  </a>
+
+- Ines Lorquet
+  <a href="https://www.linkedin.com/in/ines-lorquet-35b90128b/">
+    <img src="img/linkedin.png" width=25>
+  </a>
+  <a href="https://github.com/ines-lorquet">
+    <img src="img/github.png" width=25>
+  </a>
+
+- Bruno Coulet
+  <a href="https://www.linkedin.com/in/bruno-coulet-35b90128b/">
+    <img src="img/linkedin.png" width=25>
+  </a>
+  <a href="https://github.com/bruno-coulet">
+    <img src="img/github.png" width=25>
+  </a>
+
+A partir d'un dataset sur les passagers du titanic en .csv, il est demandé de réaliser une analyse exploratoire complète dans le but de :
+- répondre aux questions suivantes :
+a) Qui étaient les survivants du naufrage du Titanic ?
+b) Qui étaient les victimes du naufrage du Titanic ?
+- Entraîner et comparer des modèles de classification.
+- Faire un tableau de performances des modèles entraînés et interprétez ce tableau.
+- Afficher le meilleur modèle entraîné et identifié par Pycaret.
+
+
+
 
 ## Apprentissage automatique supervisé
 ### Qu’est ce que l’apprentissage automatique supervisé ?
