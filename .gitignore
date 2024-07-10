@@ -1,0 +1,58 @@
+# Dossier contenant les données de formation et de test
+data/
+
+# Dossiers de sortie de modèles et checkpoints
+models/
+checkpoints/
+
+# Fichiers de logs
+logs/
+*.log
+
+# Environnement virtuel
+venv/
+env/
+
+# Configuration spécifique à l'IDE
+.vscode/
+.idea/
+
+# Cache Jupyter Notebook
+.ipynb_checkpoints/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cache Matplotlib
+.matplotlib/
+
+# Cache de l'API
+.cache/
+
+# Caches de JetBrains (PyCharm, etc.)
+.idea/
+
+# Fichiers de sortie de test
+test/
+
+# Fichiers de configuration personnels
+*.env
+
+# Configuration de Jupyter Notebook
+*.nbconvert
+
+# Configuration de JetBrains IDE
+*.iml
+
+# Dossiers et fichiers générés
+build/
+dist/
+*.egg-info/
+
+# Fichiers de configuration Docker
+docker-compose.override.yml
+
+# Fichiers de configuration Kubernetes
+k8s/*.yaml
