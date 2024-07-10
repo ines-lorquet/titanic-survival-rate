@@ -4,9 +4,10 @@
 
 Juillet 2024
 
-## Table des matières de la Veille
+## Table des matières
 
-- [Veille](#veille)
+- [Contexte du projet](#Contexte)
+- [Veille](#Veille)
   - [Apprentissage automatique supervisé](#apprentissage-automatique-supervisé)
   - [Données étiquetées](#données-étiquetées)
   - [Classification supervisée](#classification-supervisée)
@@ -19,7 +20,12 @@ Juillet 2024
   - [Evaluation d’un modèle d’apprentissage automatique](#valuation-dun-modèle-dapprentissage-automatique) 
   - [AutoML](#AutoML)
   - [Arbre de décision](#arbre-de-décision)
+- [Données](#Données)
+- [Analyse](#Analyse)
+- [Algorithmes utilisés](#Algorithmes)
+- [Conclusion](#Conclusion)
 
+## Contexte
 
 ## Apprentissage automatique supervisé
 ### Qu’est ce que l’apprentissage automatique supervisé ?
@@ -80,3 +86,9 @@ L’AutoML (Automated Machine Learning) est un ensemble de techniques qui automa
 ### Qu’est ce qu’un arbre de décision pour la classification supervisée ? Comment fonctionne–t-il ?
 
 Un arbre de décision est un modèle de classification qui divise les données en sous-ensembles basés sur des tests de valeurs de caractéristiques. Chaque nœud de l’arbre représente une caractéristique, chaque branche représente un résultat de test, et chaque feuille représente une classe ou une étiquette. L’arbre de décision fonctionne en parcourant les nœuds de l’arbre pour prendre des décisions basées sur les caractéristiques des données d’entrée.
+
+
+## Données
+## Analyse
+## Algorithmes
+## Conclusion
