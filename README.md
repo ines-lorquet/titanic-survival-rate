@@ -52,16 +52,14 @@ Travail en équipe de 3 étudiants en 1ère année de `Bachelor IT spécialité 
     <img src="img/github.png" width=25>
   </a>
 
-A partir d'un dataset sur les passagers du titanic en .csv, il est demandé de réaliser une analyse exploratoire complète dans le but de :
-- répondre aux questions suivantes :
+A partir d'un dataset sur les passagers du titanic en .csv, il est demandé de réaliser une analyse exploratoire complète dans le but de répondre aux questions suivantes :
 a) Qui étaient les survivants du naufrage du Titanic ?
 b) Qui étaient les victimes du naufrage du Titanic ?
+
+Il faut ensuite :
 - Entraîner et comparer des modèles de classification.
 - Faire un tableau de performances des modèles entraînés et interprétez ce tableau.
 - Afficher le meilleur modèle entraîné et identifié par Pycaret.
-
-
-
 
 ## Apprentissage automatique supervisé
 ### Qu’est ce que l’apprentissage automatique supervisé ?
