@@ -124,6 +124,27 @@ Un arbre de décision est un modèle de classification qui divise les données e
 
 
 ## Données
+Un jeux de donnée au format .csv est fourni [ici](https://drive.google.com/file/d/11n_iJwyFsL4iFZBKVfnwLIBsvrmGrGzT/view)  
+Ainsi qu'un descriptif du dataset [ici](https://drive.google.com/file/d/1ZmUYA_v-x0YG927_XiQI0lm4_504hkgc/view)  
+
+Il s'agit d'une liste de 891 passagers contenant les informations suivantes :  
+
+- survivant/décédé
+- classe d'embarquement (1,2 ou 3)
+- état civil
+- sexe
+- âge
+- présence à bord de frères/soeur ou non
+- présence à bord de parent/enfant ou non
+- numéro de ticket
+- prix du ticket
+- numéro de cabine
+- port d'embarquement
+
+Le dataset est incomplet, il manque certain âge et de nombreux numéro de cabine.
+En outre l'énoncé nous informe que le nnaufrage du titanic à entraîné la mort de 1502 des 2224 passagers et
+membres d'équipage.
+
 ## Analyse
 ## Algorithmes
 ## Conclusion
