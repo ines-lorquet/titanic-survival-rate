@@ -141,8 +141,8 @@ Il s'agit d'une liste de 891 passagers contenant les informations suivantes :
 - numéro de cabine
 - port d'embarquement
 
-Le dataset est incomplet, il manque certain âge et de nombreux numéro de cabine.
-En outre l'énoncé nous informe que le nnaufrage du titanic à entraîné la mort de 1502 des 2224 passagers et
+Le dataset est incomplet, il manque certain âge et de nombreux numéro de cabine.  
+En outre, l'énoncé nous informe que le naufrage du titanic à entraîné la mort de 1502 des 2224 passagers et
 membres d'équipage.
 
 ## Analyse
