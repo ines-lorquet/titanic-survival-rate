@@ -1,0 +1,4 @@
+pandas==2.1.4
+pycaret==3.3.2
+seaborn==0.13.2
+matplotlib==3.7.5

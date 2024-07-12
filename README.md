@@ -84,11 +84,5 @@ Un arbre de décision est un modèle de classification qui divise les données e
 ## download requirements
 
 ```sh
-pip install pandas
-``` 
-```sh
-pip install seaborn
-``` 
-```sh
-pip install pycaret
-``` 
+pip install -r requirements.txt
+```  
