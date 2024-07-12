@@ -6,6 +6,8 @@ models/
 checkpoints/
 
 # Fichiers de logs
+log
+logs
 logs/
 *.log
 
