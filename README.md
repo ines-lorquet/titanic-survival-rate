@@ -80,3 +80,15 @@ L’AutoML (Automated Machine Learning) est un ensemble de techniques qui automa
 ### Qu’est ce qu’un arbre de décision pour la classification supervisée ? Comment fonctionne–t-il ?
 
 Un arbre de décision est un modèle de classification qui divise les données en sous-ensembles basés sur des tests de valeurs de caractéristiques. Chaque nœud de l’arbre représente une caractéristique, chaque branche représente un résultat de test, et chaque feuille représente une classe ou une étiquette. L’arbre de décision fonctionne en parcourant les nœuds de l’arbre pour prendre des décisions basées sur les caractéristiques des données d’entrée.
+
+## download requirements
+
+```sh
+pip install pandas
+``` 
+```sh
+pip install seaborn
+``` 
+```sh
+pip install pycaret
+``` 
