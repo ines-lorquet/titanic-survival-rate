@@ -6,6 +6,8 @@ Juillet 2024
 
 ## Table des matières de la Veille
 
+- [Contexte du projet](#Contexte)
+- [Download requirements](#download-requirements)
 - [Veille](#veille)
   - [Apprentissage automatique supervisé](#apprentissage-automatique-supervisé)
   - [Données étiquetées](#données-étiquetées)
@@ -19,8 +21,52 @@ Juillet 2024
   - [Evaluation d’un modèle d’apprentissage automatique](#valuation-dun-modèle-dapprentissage-automatique) 
   - [AutoML](#AutoML)
   - [Arbre de décision](#arbre-de-décision)
+- [Données](#Données)
+- [Analyse](#Analyse)
+- [Algorithmes utilisés](#Algorithmes)
+- [Conclusion](#Conclusion)
 
+## Contexte
+Travail en équipe de 3 étudiants en 1ère année de `Bachelor IT spécialité Intelligence Artificielle` à [La Plateforme_](https://laplateforme.io/) à Marseille
 
+- Said Kheloufi
+  <a href="https://www.linkedin.com/in/said-kheloufi/">
+    <img src="img/linkedin.png" width=25>
+  </a>
+  <a href="https://github.com/said-kheloufi">
+    <img src="img/github.png" width=25>
+  </a>
+
+- Ines Lorquet
+  <a href="https://www.linkedin.com/in/ines-lorquet-35b90128b/">
+    <img src="img/linkedin.png" width=25>
+  </a>
+  <a href="https://github.com/ines-lorquet">
+    <img src="img/github.png" width=25>
+  </a>
+
+- Bruno Coulet
+  <a href="https://www.linkedin.com/in/bruno-coulet-35b90128b/">
+    <img src="img/linkedin.png" width=25>
+  </a>
+  <a href="https://github.com/bruno-coulet">
+    <img src="img/github.png" width=25>
+  </a>
+A partir d'un dataset sur les passagers du titanic en .csv, il est demandé de réaliser une analyse exploratoire complète dans le but de répondre aux questions suivantes :  
+a) Qui étaient les survivants du naufrage du Titanic ?  
+b) Qui étaient les victimes du naufrage du Titanic ?  
+
+Il faut ensuite :
+- Entraîner et comparer des modèles de classification.
+- Faire un tableau de performances des modèles entraînés et interprétez ce tableau.
+- Afficher le meilleur modèle entraîné et identifié par Pycaret.
+## Download requirements
+Installer les bibliothèques nécessaire pour le bon fonctionnemeent du projet :
+```sh
+pip install -r requirements.txt
+```  
+
+## Veille
 ## Apprentissage automatique supervisé
 ### Qu’est ce que l’apprentissage automatique supervisé ?
 
@@ -81,8 +127,6 @@ L’AutoML (Automated Machine Learning) est un ensemble de techniques qui automa
 
 Un arbre de décision est un modèle de classification qui divise les données en sous-ensembles basés sur des tests de valeurs de caractéristiques. Chaque nœud de l’arbre représente une caractéristique, chaque branche représente un résultat de test, et chaque feuille représente une classe ou une étiquette. L’arbre de décision fonctionne en parcourant les nœuds de l’arbre pour prendre des décisions basées sur les caractéristiques des données d’entrée.
 
-## download requirements
-
-```sh
-pip install -r requirements.txt
-```  
+## Analyse
+## Algorithmes
+## Conclusion
