@@ -51,8 +51,9 @@ Travail en équipe de 3 étudiants en 1ère année de `Bachelor IT spécialité 
   </a>
   <a href="https://github.com/bruno-coulet">
     <img src="img/github.png" width=25>
-  </a>
-A partir d'un dataset sur les passagers du titanic en .csv, il est demandé de réaliser une analyse exploratoire complète dans le but de répondre aux questions suivantes :  
+  </a>  
+
+A partir d'un [dataset sur les passagers du titanic](https://drive.google.com/file/d/11n_iJwyFsL4iFZBKVfnwLIBsvrmGrGzT/view) en .csv et d'une [description du dataset](https://drive.google.com/file/d/1ZmUYA_v-x0YG927_XiQI0lm4_504hkgc/view) en .txt, il est demandé de réaliser une analyse exploratoire complète dans le but de répondre aux questions suivantes :  
 a) Qui étaient les survivants du naufrage du Titanic ?  
 b) Qui étaient les victimes du naufrage du Titanic ?  
 
