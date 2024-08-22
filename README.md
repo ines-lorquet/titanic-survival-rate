@@ -129,5 +129,33 @@ L’AutoML (Automated Machine Learning) est un ensemble de techniques qui automa
 Un arbre de décision est un modèle de classification qui divise les données en sous-ensembles basés sur des tests de valeurs de caractéristiques. Chaque nœud de l’arbre représente une caractéristique, chaque branche représente un résultat de test, et chaque feuille représente une classe ou une étiquette. L’arbre de décision fonctionne en parcourant les nœuds de l’arbre pour prendre des décisions basées sur les caractéristiques des données d’entrée.
 
 ## Analyse
+
+L'analyse des données du Titanic vise à identifier les caractéristiques des passagers qui ont influencé leurs chances de survie. Pour cela, plusieurs variables clés ont été examinées :
+
+- Sexe : L'analyse montre que le sexe a joué un rôle crucial dans les chances de survie. Environ 74% des femmes ont survécu, contre seulement 18% des hommes. Cette disparité s'explique par la priorité donnée aux femmes et aux enfants lors de l'évacuation.
+
+- Âge : L'âge des passagers a également été déterminant. Les enfants, en particulier ceux de moins de 15 ans, avaient un taux de survie plus élevé. En revanche, les personnes âgées avaient des chances de survie réduites. Une analyse des âges médian et moyen des survivants par rapport aux non-survivants a révélé que les jeunes avaient plus de chances de survivre.
+
+- Classe (Pclass) : La classe du billet, qui représente le statut socio-économique des passagers, était un autre facteur déterminant. Les passagers de première classe avaient un taux de survie d'environ 63%, tandis que ceux de troisième classe avaient un taux de survie de seulement 24%. Cela reflète probablement l'accès plus rapide aux canots de sauvetage pour les passagers des classes supérieures.
+
+Ces analyses mettent en évidence les inégalités en matière de survie selon le sexe, l'âge, et la classe des passagers.
+
 ## Algorithmes
+
+Dans cette étude, plusieurs algorithmes de classification supervisée ont été utilisés pour prédire les chances de survie des passagers :
+
+Arbre de décision : Un arbre de décision a été utilisé pour comprendre les règles de survie basées sur les variables clés (âge, sexe, classe). Cet algorithme est interprétable et montre clairement comment chaque caractéristique contribue aux décisions de survie.
+
+Forêt aléatoire (Random Forest) : Cet ensemble d'arbres de décision a permis de renforcer la robustesse des prédictions en réduisant les biais et la variance. La forêt aléatoire est particulièrement utile pour capturer les interactions complexes entre les variables.
+
+Logistic Regression (Régression logistique) : Ce modèle linéaire a été utilisé pour estimer les probabilités de survie en fonction des caractéristiques des passagers. La régression logistique est efficace pour les problèmes de classification binaire, comme celui-ci.
+
+Support Vector Machine (SVM) : Cet algorithme a été employé pour séparer les classes de survivants et de non-survivants en maximisant la marge entre les deux. Le SVM est adapté pour des données où les classes ne sont pas parfaitement séparables.
+
+Chaque algorithme a été évalué en utilisant la précision (accuracy) pour déterminer lequel fournissait les prédictions les plus fiables. La comparaison des performances a permis de sélectionner le meilleur modèle pour prédire la survie des passagers.
+
 ## Conclusion
+
+L'analyse des données du Titanic a révélé des insights importants sur les facteurs influençant les chances de survie des passagers. Les femmes, les enfants, et les passagers de première classe avaient significativement plus de chances de survivre.
+
+En utilisant divers algorithmes de classification, nous avons pu prédire avec une précision notable les probabilités de survie en fonction des caractéristiques des passagers. Parmi les modèles testés, la forêt aléatoire s'est révélée être le meilleur en termes de précision et de robustesse. Ce projet démontre comment l'analyse des données et l'apprentissage automatique peuvent être utilisés pour explorer des événements historiques et extraire des connaissances significatives.
